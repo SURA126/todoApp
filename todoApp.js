@@ -1,7 +1,7 @@
 let reqvest = new XMLHttpRequest();
-reqvest.addEventListener("load", ()=> {
+/*reqvest.addEventListener("load", ()=> {
 console.log (this.responseText);
-});
+}); */
 reqvest.open("GET","todo.xml",true);
 reqvest.send(null);
 
