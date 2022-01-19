@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!-- Список заданий для выполнения --> 
+
+<taskList> 
+<task complete = "false">
+<title> Сварить кофе </title>
+<text> Сварить кофе с молоком 2 порции </text>
+<priority> 3 </priority>
+<date> 13-01-22 </date>
+<emoji symbol = "U+1F600"/> 
+</task>
+
+<task complete = "false">
+<title> Заворить чай </title>
+<text> Заворить чай с молоком 1 порцию </text>
+<priority> 1 </priority>
+<date> 14-01-22 </date>
+<emoji symbol = "U+1F600"/> 
+</task>
+
+<task complete = "true">
+<title> Заворить какао </title>
+<text> Заворить какао с молоком 2 порции </text>
+<priority> 4 </priority>
+<date> 15-01-22 </date>
+<emoji symbol = "U+1F600"/> 
+</task>
+</taskList>
+
+<!--//task[last()-1] показывает пред последний
+//task[position()<3] выбирает определённое
+//task[@complete="true"] ищет по атрибуту 
+//task[priority>1]/title выбирает заголовки для такска где приоритет больше 1 
+//task[priority>1]/title | //task[priority>1]/text могу объединять способы выделения | - и  
+
+
+-->
