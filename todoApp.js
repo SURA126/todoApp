@@ -1,6 +1,6 @@
 function showResult(xml){
     let text = "";
-path = '//task/text | //task/title';
+path = '//task/title';
 let nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
 let result = nodes.iterateNext();
 while(result){
