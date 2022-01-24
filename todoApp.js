@@ -4,8 +4,8 @@ path = '//task/title';
 let nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
 let result = nodes.iterateNext();
 while(result){
-        text +=`<li>${result.childNodes[0].nodeValue}<p${result.childNodes[0].nextSibling.innerHTML} ></p></li>`;
-        console.log(result.childNodes[0]);
+        text +=`<li>${result.childNodes[0].nodeValue}</li>`;
+        console.log(result.childNodes[0].nextSibling.innerHTML);
         console.log(result.childNodes);
         result = nodes.iterateNext();
 } 
