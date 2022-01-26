@@ -7,7 +7,7 @@
 <text> Сварить кофе с молоком 2 порции </text>
 <priority> 3 </priority>
 <date> 13-01-22 </date>
-<emoji symbol = "U+1F600"/> 
+<emoji symbol = "128511"> 
 </task>
 
 <task complete = "false">
@@ -15,7 +15,7 @@
 <text> Заворить чай с молоком 1 порцию </text>
 <priority> 1 </priority>
 <date> 14-01-22 </date>
-<emoji symbol = "U+1F600"/> 
+<emoji symbol = "128511"/> 
 </task>
 
 <task complete = "true">
@@ -23,7 +23,7 @@
 <text> Заворить какао с молоком 2 порции </text>
 <priority> 4 </priority>
 <date> 15-01-22 </date>
-<emoji symbol = "U+1F600"/> 
+<emoji symbol = "128511"/> 
 </task>
 </taskList>
 
